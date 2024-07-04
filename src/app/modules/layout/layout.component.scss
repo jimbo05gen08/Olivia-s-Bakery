@@ -1,0 +1,479 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+
+/*For Desktop*/
+.header-custom {
+  background-color: #ffffff;
+}
+
+.header-custom2 {
+  height: 120px;
+}
+
+.bakery {
+  font-family: "Philosopher", sans-serif;
+  font-size: 40px;
+  color: #cd8574;
+  line-height: 39px;
+  font-weight: bold;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 48px;
+}
+
+.bakery-line {
+  display: block;
+}
+
+.bi-person {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.bi-cart2 {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.bi-shop {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.bi-suit-heart-fill {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.line-resp-desk {
+  display: block;
+  background-color: #ffffff;
+  color: #6b7281;
+  margin: 0px;
+}
+
+.bi-heart {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.bi-list {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.bi-search {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.input-group {
+  box-shadow: 1px 1px #6b7281;
+  border-radius: 7px;
+}
+
+.bi-telephone {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.bi-chat-left {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.bi-book {
+  width: 48px;
+  height: 48px;
+  fill: currentColor;
+}
+
+.icon-tabler-users {
+  width: 18px;
+  height: 18px;
+  stroke-width: 1.5px;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+.bi-instagram {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.bi-facebook {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.bi-whatsapp {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.login-custom .a-custom {
+  text-decoration: none;
+  color: #6b7281;
+  font-family: "Philosopher";
+  font-size: 18px;
+}
+
+.menu .a-custom.index {
+  text-decoration: none;
+  color: #cd8574;
+  font-family: "Philosopher";
+  font-size: 18px;
+}
+
+.login-custom .a-custom:hover {
+  color: #cd8574;
+  height: 200px;
+}
+
+.forgot-hiperv:hover {
+  color: #d1583d;
+}
+
+.menu {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 50px;
+  padding-top: 0px;
+  margin: 0px;
+  list-style-type: none;
+  background-color: #ffffff;
+}
+.menu-pc {
+  padding: 48px 0px;
+}
+
+.menu li .a-custom {
+  text-decoration: none;
+  color: #6b7281;
+  font-size: 18px;
+  font-family: "Philosopher";
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.menu li .a-custom svg {
+  margin-right: 10px;
+}
+
+.menu .a-custom:hover {
+  color: #cd8574;
+}
+footer {
+  background-color: #ffffff;
+}
+
+.column-custom {
+  font-family: "Philosopher";
+  color: #6b7281;
+}
+
+.row h6 {
+  font-family: "Philosopher";
+  color: #6b7281;
+}
+
+.column-custom2 {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.column-custom2 svg {
+  margin-left: 25px;
+  color: #cd8574;
+}
+
+.column-custom2 div div ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.login-responsive {
+  display: none;
+}
+
+.menu-responsive {
+  display: none;
+}
+
+.container-resp-footer {
+  display: none;
+}
+
+.line-resp {
+  display: none;
+}
+
+.footer-responsive2 {
+  display: none;
+}
+
+.footer-speech2 {
+  display: none;
+}
+
+/*For Tablet*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    background-color: #ffffff;
+  }
+
+  .login-responsive svg {
+    display: none;
+  }
+
+  #banner-custom {
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: hidden;
+  }
+
+  #banner-custom img {
+    width: 100%;
+    height: 296px;
+    object-fit: cover;
+  }
+
+  .container-custom {
+    display: none;
+  }
+
+  .container-resp-footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 0px 0px;
+  }
+
+  .book-footer {
+    padding-left: 24px;
+  }
+
+  .card-footer {
+    width: 30%;
+  }
+
+  .line-resp {
+    display: block;
+    color: #6b7281;
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .hiperv0 {
+    color: #cd8574;
+  }
+
+  .span-resp {
+    color: #cd8574;
+    font-family: "Oxygen";
+    font-size: 16px;
+  }
+}
+
+/*For Mobile*/
+@media (min-width: 320px) and (max-width: 767.98px) {
+  body {
+    background-color: #ffffff;
+  }
+
+  .login1 {
+    display: none;
+  }
+
+  .login-responsive {
+    display: flex;
+    justify-content: right;
+    color: #6b7281 !important;
+    margin-top: 10px;
+  }
+
+  .col-phone {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .col-phone2 {
+    display: none;
+  }
+
+  .bakery-responsive {
+    padding: 10px 0px 0px 0px;
+  }
+
+  .bi-cart2 {
+    display: none;
+  }
+
+  .menu0 {
+    display: none;
+  }
+
+  .menu-responsive {
+    display: block;
+    background-color: #ffffff;
+    padding: 0px 0px;
+  }
+
+  .menu-responsive ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+    padding: 25px 0px;
+    list-style-type: none;
+    color: #6b7281;
+  }
+
+  .menu-responsive ul li a {
+    color: #6b7281;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .cart2-menu {
+    display: block;
+  }
+
+  .heart-menu {
+    display: block;
+  }
+
+  .container-banner {
+    display: none;
+  }
+
+  .banner-responsive {
+    width: auto;
+    height: 420px;
+    display: block;
+    margin: 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-color: #ffffff;
+  }
+
+  #banner-custom {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+
+  #banner-custom img {
+    width: 200%;
+    height: 420px;
+    border-radius: 0px;
+    object-fit: cover;
+  }
+
+  .container-custom {
+    display: none;
+  }
+
+  .container-resp-footer {
+    display: block;
+    background-color: #ffffff;
+  }
+
+  .card-footer {
+    padding-left: 24px;
+  }
+
+  .line-resp {
+    display: block;
+    color: #6b7281;
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .hiperv0 {
+    color: #cd8574;
+  }
+
+  .span-resp {
+    color: #cd8574;
+    font-family: "Oxygen";
+    font-size: 16px;
+  }
+
+  .footer-speech {
+    display: none;
+  }
+
+  .column-custom {
+    display: none;
+  }
+
+  .line-resp2 {
+    display: none;
+  }
+
+  .rs-resp {
+    width: 30px;
+    height: 30px;
+  }
+
+  .rs-resp1 {
+    margin-left: 24px;
+  }
+
+  .footer-speech2 {
+    display: block;
+    font-family: "Philosopher";
+    font-size: 14px;
+  }
+
+  .heart-footer2 {
+    width: 14px;
+    height: 14px;
+    color: #6b728197;
+    fill: currentColor;
+  }
+
+  .footer-responsive2 {
+    display: block;
+  }
+
+  .footer-responsive2 p {
+    font-family: "Philosopher";
+    font-size: 14px;
+    color: #cd8574;
+    font-weight: bold;
+  }
+}
